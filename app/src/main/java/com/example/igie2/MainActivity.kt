@@ -33,10 +33,11 @@ class MainActivity : AppCompatActivity() {
         while (count >= 0) {
             timerLabel.text = count.toString()
             if (count == 0) {
-                val mediaPlayer = MediaPlayer.create(this, R.raw.sound_file)
+                val mediaPlayer = MediaPlayer.create(this, R.raw.warning_sound)
                 mediaPlayer.start()
             }
             count--
+            print(count)
             Thread.sleep(1000)
         }
     }
