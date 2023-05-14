@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">igie2</string>
+
+
+    <string-array name="timer_values">
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+
 </resources>
